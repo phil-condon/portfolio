@@ -1,0 +1,55 @@
+html {
+    font-family: 'Tajawal', sans-serif;
+}
+
+a {
+    color: #407a84
+}
+
+body {
+    background-image: url(../img/dust_scratches.png);
+    color: #407a84;
+    min-height: 100vh
+}
+
+.wrapper {
+    max-width: 1280px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px;
+}
+
+header .wrapper {
+    display: flex;
+}
+
+header .name-logo {
+    text-decoration: none;
+    font-size: 20px;
+    flex: 1;
+}
+header .name-logo span{
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+nav {
+    text-align: right;
+    align-self: flex-end;
+    flex: 1;
+}
+
+.home-page main {
+    text-align: center;
+}
